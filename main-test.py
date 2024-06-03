@@ -1,9 +1,6 @@
 import asyncio
-
-import schedule
 from websockets import WebSocketServerProtocol
 from websockets.server import serve
-from threading import Timer
 
 
 async def ponger(wss: WebSocketServerProtocol):
